@@ -1,0 +1,97 @@
+span {
+	font : italic normal normal 25px serif ;
+	color : #023859;
+	text-shadow : 0 5px 5px #023859;
+}
+body {
+	background-image :linear-gradient(to right , #a7ebf2 , #54acbf , #26658c , #023859 , #011c40);
+}
+nav{
+	background-color : #26657c;
+	box-shadow : 0 20px 10px 0 #26657c;
+	text-align : center ;
+	border-radius : 60px;
+	height : 30px;
+}
+nav a {
+	color : white ;
+	padding : 40px;
+	text-decoration : none ;
+}
+nav a:hover {
+	color : #a7ebf2;
+}
+section h3 {
+	background-color : #023859;
+	height : 30px;
+	border-radius : 50px;
+	text-align : center ;
+}
+ol{
+	list-style-type : disc;
+	list-style-position : inside;
+}
+li{
+	background : #26658c;
+	height : 30px;
+	border-radius : 20px;
+	text-align : center ;
+}
+section h2 {
+	text-decoration : underline ;
+}
+footer {
+	text-decoration : underline ;
+}
+table{
+	width : 80%;
+	border-spacing :0;
+}
+th{
+	background : #011c40;
+	color : #abafb5;
+	height : 30px;
+}
+td{
+	background : #54acbf;
+	height : 30px;
+	text-align : center ;
+	border : 1px solid #26658c;
+}
+.course {
+	width : 50%;
+	margin : 40px auto ;
+	background : #023859;
+	padding : 25px;
+	border-radius : 15px;
+	box-shadow : 0 5px 40px #011c40;
+}
+.course label {
+	font-weight : bold ;
+	color : #abafb5;
+	display : block ;
+	margin-bottom : 6px;
+}
+.course input ,
+.course textarea {
+	width : 80%;
+	padding : 9px;
+	margin-bottom : 10px;
+	border : none ;
+	border-radius : 10px;
+	outline : none ;
+	font-size : 15px;
+	
+}
+button {
+	background : #023859;
+	border-radius : 50px;
+	color : white ;
+}
+
+@media (max-width:600px){
+	table , form {
+		width : 95%;
+	}
+}
+
