@@ -11,12 +11,20 @@ span {
 body {
 	background-image :linear-gradient(to right , #a7ebf2 , #54acbf , #26658c , #023859 , #011c40);
 }
+header {
+	width :100%;
+	padding : 20px;
+}
 nav{
 	background-color : #26657c;
 	box-shadow : 0 20px 10px 0 #26657c;
 	text-align : center ;
 	border-radius : 60px;
 	height : 30px;
+	display : flex;
+	flex-wrap : wrap ;
+	justify-content : center ;
+	gap : 14px;
 }
 nav a {
 	color : white ;
@@ -32,6 +40,11 @@ nav a:hover {
     align-items : center;
     padding : 15px 20px;
    
+	}
+	main {
+		width : 90%;
+		max-width : 800px;
+		padding : 22px;
 	}
 		section {
     display : flex;
@@ -50,6 +63,7 @@ section h3 {
 ol{
 	list-style-type : disc;
 	list-style-position : inside;
+	display : inline-block;
 }
 li{
 	background : #26658c;
@@ -75,6 +89,8 @@ li{
 }
 section h2 {
 	text-decoration : underline ;
+	margin-top : auto;
+	padding : 22px;
 }
 footer {
 	text-decoration : underline ;
@@ -126,33 +142,10 @@ button {
 }
 
 @media (max-width:600px){
-	
-	body {
-		padding : 15px;
+	h1 {
+		font-size : 1.3rem ;
 	}
-	nav {
-		flex-direction : column ;
-		align-items : center ;
-		margin-bottom : 20px;
+	nav a {
+		width : 100%;
+		font-size : 15px;
 	}
-	
-	.bar{
-		flex-direction : column;
-		gap : 12px;
-	}
-	
-	
-		h1 {
-        font-size: 21px;
-    }
-
-    h2 {
-        font-size: 14px;
-    }
-
-    p {
-        font-size: 14px;
-    }
-	
-}
-
