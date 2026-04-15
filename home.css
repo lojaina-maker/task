@@ -103,6 +103,11 @@ button {
     align-items : center;
     padding : 15px 20px;
 	}
+	.bar a {
+		display : block;
+		padding : 12px;
+		border-radius : 9px;
+	}
 	nav ul {
 		flex-direction : column ;
 	}
