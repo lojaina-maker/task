@@ -98,8 +98,56 @@ button {
 	color : white ;
 }
 
-@media (max-width:600px){
-	table , form {
-		width : 95%;
-	}
-	}
+
+@media (max-width: 768px) {
+
+  
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        display: block;
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+   
+    main {
+        width: 95%;
+        margin: 15px auto;
+        padding: 15px;
+    }
+
+    
+    .form-container {
+        width: 95%;
+        padding: 15px;
+    }
+
+   
+    input, textarea, select {
+        width: 100%;
+        font-size: 14px;
+    }
+
+   
+    table {
+        width: 100%;
+        font-size: 12px;
+        overflow-x: auto;
+        display: block;
+    }
+
+   
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+}
