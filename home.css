@@ -7,10 +7,7 @@ span {
 body {
 	background-image :linear-gradient(to right , #a7ebf2 , #54acbf , #26658c , #023859 , #011c40);
 }
-header {
-	width :100%;
-	padding : 20px;
-}
+
 nav{
 	background-color : #26657c;
 	box-shadow : 0 20px 10px 0 #26657c;
@@ -39,7 +36,7 @@ section h3 {
 ol{
 	list-style-type : disc;
 	list-style-position : inside;
-	display : inline-block;
+	
 }
 li{
 	background : #26658c;
@@ -51,8 +48,6 @@ li{
 
 section h2 {
 	text-decoration : underline ;
-	margin-top : auto;
-	padding : 22px;
 }
 footer {
 	text-decoration : underline ;
@@ -61,7 +56,7 @@ table{
 	width : 80%;
 	border-spacing :0;
 }
-th{
+th {
 	background : #011c40;
 	color : #abafb5;
 	height : 30px;
@@ -89,10 +84,10 @@ td{
 .course input ,
 .course textarea {
 	width : 80%;
-	padding : 9px;
-	margin-bottom : 10px;
+	padding : 10px;
+	margin-bottom : 15px;
 	border : none ;
-	border-radius : 10px;
+	border-radius : 8px;
 	outline : none ;
 	font-size : 15px;
 	
@@ -104,10 +99,7 @@ button {
 }
 
 @media (max-width:600px){
-	h1 {
-		font-size : 1.3rem ;
+	table , form {
+		width : 95%;
 	}
-	nav a {
-		width : 100%;
-		font-size : 15px;
 	}
