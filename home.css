@@ -33,6 +33,14 @@ nav a:hover {
     padding : 15px 20px;
    
 	}
+		section {
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+    text-align : center;
+    padding : 40px 20px;
+    min-height : 80vh;
 section h3 {
 	background-color : #023859;
 	height : 30px;
@@ -48,6 +56,22 @@ li{
 	height : 30px;
 	border-radius : 20px;
 	text-align : center ;
+}
+			header, section, div, main {
+        display : flex ;
+        flex-direction : column ;
+        align-items : center;
+        text-align : center ;
+        position : static;
+        width : 100% ;
+        height : auto ;
+        margin-bottom : 20px ;
+    }
+
+    h1, h2, p, ul, li {
+        position : static ;
+        margin : 10px 0 ;
+    }
 }
 section h2 {
 	text-decoration : underline ;
