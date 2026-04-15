@@ -3,11 +3,7 @@ span {
 	color : #023859;
 	text-shadow : 0 5px 5px #023859;
 }
-	* {
-    box-sizing : border-box;
-    margin : 0;
-    padding : 0;
-}
+	
 body {
 	background-image :linear-gradient(to right , #a7ebf2 , #54acbf , #26658c , #023859 , #011c40);
 }
@@ -32,26 +28,8 @@ nav a {
 nav a:hover {
 	color : #a7ebf2;
 }
-.bar{
-	display : flex;
-    justify-content : space-between;
-    align-items : center;
-    padding : 15px 20px;
-   
-	}
-	main {
-		width : 90%;
-		max-width : 800px;
-		padding : 22px;
-	}
-		section {
-    display : flex;
-    flex-direction : column;
-    align-items : center;
-    justify-content : center;
-    text-align : center;
-    padding : 40px 20px;
-    min-height : 80vh;
+
+	
 section h3 {
 	background-color : #023859;
 	height : 30px;
