@@ -6,6 +6,7 @@ span {
 	
 body {
 	background-image :linear-gradient(to right , #a7ebf2 , #54acbf , #26658c , #023859 , #011c40);
+		overflow : hidden ;
 }
 
 nav{
