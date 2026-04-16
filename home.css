@@ -111,7 +111,7 @@ button {
 
     nav a {
         display: block;
-        padding: 10px;
+        padding: 5px;
         width: 100%;
         text-align: center;
     }
@@ -120,35 +120,35 @@ button {
     main {
         width: 95%;
         margin: 15px auto;
-        padding: 15px;
+        padding: 10px;
     }
 
     
     .form-container {
         width: 95%;
-        padding: 15px;
+        padding: 10px;
     }
 
    
     input, textarea, select {
         width: 100%;
-        font-size: 14px;
+        font-size: 9px;
     }
 
    
     table {
         width: 100%;
-        font-size: 12px;
+        font-size: 10px;
         overflow-x: auto;
         display: block;
     }
 
    
     h1 {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     h2 {
-        font-size: 18px;
+        font-size: 10px;
     }
 }
